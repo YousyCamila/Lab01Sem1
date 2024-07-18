@@ -1,9 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Linq.Expressions;
-
+﻿
 using DAL;
-using ENTITIES.Models;
 using System.Linq.Expressions;
+using ;
+
+
 
 //*CreateAsync().GetAwaiter().GetResult();
 //*RetrieveAsync().GetAwaiter().GetResult();
@@ -103,7 +103,7 @@ static async Task UpdateAsync()
 
             foreach (var customer in customer)
             {
-                Console.WriteLine($"customer: {customer.FirstName} {customer.LastName}\t from {customer.City}");
+                Console.WriteLine($"Customer: { customer.FirstName } { customer.LastName }\t from {customer.City}");
             }
         }       
 
