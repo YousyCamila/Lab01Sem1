@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using entities.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace DAL.Datos;

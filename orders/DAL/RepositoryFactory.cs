@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-   public class RepositoryFactory
+    public class RepositoryFactory
     {
-        public static 
+        public static IRepository CreateRepository()
+        {
+            return new EFRepository(new Datos.ApplicationDbContext());
+        }
     }
 }
