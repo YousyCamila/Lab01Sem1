@@ -19,7 +19,7 @@ namespace DAL
         Task<bool> UpdateAsync<TEntity>(TEntity toUpdate ) where TEntity: class;
 
         //Para recuperar una entidad con base en un criterio 
-        Task<TEntity>RetreiveAsync<TEntity>(Expression<Func<TEntity, bool>> criteria) where TEntity: class;
+        Task<TEntity>RetrieveAsync<TEntity>(Expression<Func<TEntity, bool>> criteria) where TEntity: class;
 
         //Para recuperar un conjunto de entidades con base en un criterio de busqueda 
 
